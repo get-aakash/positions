@@ -1,0 +1,26 @@
+/*Position:static, relative, absolute, fixed, stick*/
+body{
+    font-size: 2rem;
+
+}
+.parent{
+    font-size: 2em;
+    position: static;
+
+}
+.parent > div{
+    min-height: 100px;
+}
+.c1{
+    background: red;
+
+}
+.c2{
+    background: green;
+    position: relative;
+    top: 45px;
+
+}
+.c3{
+background: blue;
+}
